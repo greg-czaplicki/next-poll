@@ -5,9 +5,9 @@ export default function Home(props: any) {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1 className="text-3xl font-bold text-blue-800">Hello world!</h1>
       <p>Hello Next.js</p>
       <code>{props.questions}</code>
     </div>
